@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=divice-width, initial scal3=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <h1>Update Customer</h1>
+    <hr>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Update Customer</button>
+    </form>
+</body>
+</html>
